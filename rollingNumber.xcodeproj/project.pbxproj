@@ -15,7 +15,7 @@
 		F5CF71C71DE6722F00EB2C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CF71C51DE6722F00EB2C22 /* LaunchScreen.storyboard */; };
 		F5CF71D21DE6722F00EB2C22 /* rollingNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CF71D11DE6722F00EB2C22 /* rollingNumberTests.m */; };
 		F5CF71DD1DE6722F00EB2C22 /* rollingNumberUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CF71DC1DE6722F00EB2C22 /* rollingNumberUITests.m */; };
-		F5CF71EC1DE6755D00EB2C22 /* OWRollingNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CF71EB1DE6755D00EB2C22 /* OWRollingNumberView.m */; };
+		F5CF71F01DE6D0D600EB2C22 /* OWRollingNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CF71EF1DE6D0D600EB2C22 /* OWRollingNumberView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		F5CF71D81DE6722F00EB2C22 /* rollingNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rollingNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CF71DC1DE6722F00EB2C22 /* rollingNumberUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rollingNumberUITests.m; sourceTree = "<group>"; };
 		F5CF71DE1DE6722F00EB2C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5CF71EA1DE6755D00EB2C22 /* OWRollingNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWRollingNumberView.h; sourceTree = "<group>"; };
-		F5CF71EB1DE6755D00EB2C22 /* OWRollingNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWRollingNumberView.m; sourceTree = "<group>"; };
+		F5CF71EE1DE6D0D600EB2C22 /* OWRollingNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWRollingNumberView.h; sourceTree = "<group>"; };
+		F5CF71EF1DE6D0D600EB2C22 /* OWRollingNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWRollingNumberView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 		F5CF71AB1DE6722D00EB2C22 = {
 			isa = PBXGroup;
 			children = (
+				F5CF71ED1DE6D0D600EB2C22 /* OWRollingNumberView */,
 				F5CF71B61DE6722F00EB2C22 /* rollingNumber */,
 				F5CF71D01DE6722F00EB2C22 /* rollingNumberTests */,
 				F5CF71DB1DE6722F00EB2C22 /* rollingNumberUITests */,
@@ -104,8 +105,6 @@
 		F5CF71B61DE6722F00EB2C22 /* rollingNumber */ = {
 			isa = PBXGroup;
 			children = (
-				F5CF71EA1DE6755D00EB2C22 /* OWRollingNumberView.h */,
-				F5CF71EB1DE6755D00EB2C22 /* OWRollingNumberView.m */,
 				F5CF71BA1DE6722F00EB2C22 /* AppDelegate.h */,
 				F5CF71BB1DE6722F00EB2C22 /* AppDelegate.m */,
 				F5CF71BD1DE6722F00EB2C22 /* ViewController.h */,
@@ -143,6 +142,15 @@
 				F5CF71DE1DE6722F00EB2C22 /* Info.plist */,
 			);
 			path = rollingNumberUITests;
+			sourceTree = "<group>";
+		};
+		F5CF71ED1DE6D0D600EB2C22 /* OWRollingNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				F5CF71EE1DE6D0D600EB2C22 /* OWRollingNumberView.h */,
+				F5CF71EF1DE6D0D600EB2C22 /* OWRollingNumberView.m */,
+			);
+			path = OWRollingNumberView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5CF71BF1DE6722F00EB2C22 /* ViewController.m in Sources */,
+				F5CF71F01DE6D0D600EB2C22 /* OWRollingNumberView.m in Sources */,
 				F5CF71BC1DE6722F00EB2C22 /* AppDelegate.m in Sources */,
-				F5CF71EC1DE6755D00EB2C22 /* OWRollingNumberView.m in Sources */,
 				F5CF71B91DE6722F00EB2C22 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +530,7 @@
 				F5CF71E31DE6722F00EB2C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5CF71E41DE6722F00EB2C22 /* Build configuration list for PBXNativeTarget "rollingNumberTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +539,7 @@
 				F5CF71E61DE6722F00EB2C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5CF71E71DE6722F00EB2C22 /* Build configuration list for PBXNativeTarget "rollingNumberUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +548,7 @@
 				F5CF71E91DE6722F00EB2C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
