@@ -5,4 +5,4 @@ Change a NSInteger to several single numbers, create several number labels roll 
 
 demo如图：
 
-![image](http://github.com/Wymann/OWRollingNumberView/raw/master//vim-screenshot.png)
+![Alt text](http://github.com/Wymann/OWRollingNumberView/raw/master//vim-screenshot.png)
